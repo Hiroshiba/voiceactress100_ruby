@@ -108,6 +108,8 @@ def main():
                 ry = replace_nobashi(y)
                 if ry[:2] == "おう" and (k[0] == "多" or k[0] == "大" or k[0] == "覆"):
                     ry = "おお" + ry[2:]
+                if ry[:2] == "とう" and (k[0] == "通"):
+                    ry = "とお" + ry[2:]
                 html += f"<ruby>{k}<rt>{ry}</rt></ruby>"
 
             html += post

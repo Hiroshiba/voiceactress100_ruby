@@ -1,5 +1,7 @@
 # 読み仮名（ルビ）つき声優統計コーパス音素バランス文
 
+[https://hiroshiba.github.io/voiceactress100_ruby/](https://hiroshiba.github.io/voiceactress100_ruby/)
+
 ## index.html作成方法
 ```bash
 python ruby.py
